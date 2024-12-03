@@ -4,8 +4,12 @@ const lightBox = document.querySelector("#lightbox");
 lightBox.showModal();
 
 
-/*const image = document.querySelectorAll("image");
+const image = document.querySelectorAll("image");
 image.forEach((image))
 {
-    image.addEventListener("click"), ()
-*/
+    image.addEventListener("click");
+}
+
+() => {
+    const datafullimg = image.dataset.datafullimg
+}
