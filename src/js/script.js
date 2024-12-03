@@ -13,3 +13,4 @@ image.forEach((image))
 () => {
     const datafullimg = image.dataset.datafullimg
 }
+var lightBox1 = lightBox1.querySelector("img"); 
