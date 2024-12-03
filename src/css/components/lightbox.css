@@ -1,10 +1,6 @@
 /**
 * Lightbox
 */
-img::backdrop {
-    background-color: maroon;
-
-}
 
 /*.menu {
     display: flex;
@@ -15,7 +11,17 @@ img::backdrop {
 
 }*/
 
+::backdrop {
+    background-color: chocolate
+    ;
+
+
+
+}
+
 :modal {
     border: 2px solid blue;
-
+}
+.image{
+    
 }
