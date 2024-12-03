@@ -1,25 +1,25 @@
 // *** LIGHTBOX ***
 const lightBox = document.querySelector("#lightbox");
 
-lightBox.showModal();
+
+const thumbnails = document.querySelectorAll("ul img");
 
 
-const image = document.querySelectorAll("image");
-image.forEach((image))
-{
-    image.addEventListener("click");
-}
+thumbnails.forEach((thumbnail) => {
 
-() => {
-    const datafullimg = image.dataset.datafullimg
-}
-var lightBox1 = lightBox1.querySelector("img");
-lightBox1.src = fullImgSrc;
+    thumbnail.addEventListener("click", () => {
+        const fullImgSrc = thumbnail.dataset.fullImg;
 
-lightBox1.showModal();
+        const lightBoxImg = lightBox.querySelector("img");
+        lightBoxImg.src = fullImgSrc;
 
 
-lightBox1.addEventListener("click", () => {
-    lightBox1.close();
+        lightBox.showModal();
+    });
 });
-lightBox.close();
+
+
+lightBox.addEventListener("click", () => {
+
+    lightBox.close();
+});
