@@ -2,26 +2,26 @@
 * Lightbox
 */
 
-/*.menu {
+.menu {
     display: flex;
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: auto;
 
-}*/
+}
 
 ::backdrop {
-    background-color: chocolate
-    ;
+    background-color: rgba(152, 65, 3, 0.443);
 
 
 
 }
 
 :modal {
-    border: 2px solid blue;
+    border: 3px solid rgb(30, 30, 163);
+    border-radius: 10px;
 }
-.image{
-    
-}
+
+.image {}
+

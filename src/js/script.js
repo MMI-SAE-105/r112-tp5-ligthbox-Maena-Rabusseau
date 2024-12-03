@@ -2,7 +2,10 @@
 const lightBox = document.querySelector("#lightbox");
 
 lightBox.showModal();
-lightBox.close();
 
 
-const image = document.querySelectorAll("image");
+/*const image = document.querySelectorAll("image");
+image.forEach((image))
+{
+    image.addEventListener("click"), ()
+*/
