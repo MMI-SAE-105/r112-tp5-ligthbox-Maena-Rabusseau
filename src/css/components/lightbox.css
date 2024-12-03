@@ -10,6 +10,9 @@
 :modal {
     border: 3px solid rgb(30, 30, 163);
     border-radius: 10px;
+    display: flex;
+    width: max-content;
+
 }
 
 .image {}

@@ -13,4 +13,13 @@ image.forEach((image))
 () => {
     const datafullimg = image.dataset.datafullimg
 }
-var lightBox1 = lightBox1.querySelector("img"); 
+var lightBox1 = lightBox1.querySelector("img");
+lightBox1.src = fullImgSrc;
+
+lightBox1.showModal();
+
+
+lightBox1.addEventListener("click", () => {
+    lightBox1.close();
+});
+lightBox.close();
