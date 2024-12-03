@@ -1,3 +1,21 @@
 /**
 * Lightbox
 */
+img::backdrop {
+    background-color: maroon;
+
+}
+
+/*.menu {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: auto;
+
+}*/
+
+:modal {
+    border: 2px solid blue;
+
+}
